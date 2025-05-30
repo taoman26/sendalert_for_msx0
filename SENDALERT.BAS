@@ -1,5 +1,5 @@
 ' Version: 1.0
-100 'SAVE"SENDALERT.BAS"
+100 'SAVE"ALERT.BAS"
 110    CLEAR 800
 120    DQ$=CHR$(&H22):NL$=CHR$(13)+CHR$(10)  'newline character
 130 'user setting

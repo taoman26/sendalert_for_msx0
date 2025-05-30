@@ -23,7 +23,7 @@ MSX0マイコンボード用の熱中症アラートプログラムです。温�
 
 1. Ambient (https://ambidata.io/) でアカウントを作成し、データチャンネルを設定します
 2. Google Home Notifierをサーバー上で設定します
-3. `SENDALERT.BAS`を編集し、以下の設定値を変更します：
+3. `ALERT.BAS`を編集し、以下の設定値を変更します：
 
 ```basic
 140    CH$="xxxxx"             'Ambientのチャンネルコード
@@ -37,7 +37,7 @@ MSX0マイコンボード用の熱中症アラートプログラムです。温�
 ## 使用方法
 
 1. DHT温湿度センサーをMSX0に接続します
-2. MSX0のBASIC環境で`LOAD "SENDALERT.BAS"`を実行します
+2. MSX0のBASIC環境で`LOAD "ALERT.BAS"`を実行します
 3. `RUN`コマンドでプログラムを開始します
 
 プログラムは以下の動作を行います：
