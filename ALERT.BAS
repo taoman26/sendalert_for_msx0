@@ -93,7 +93,6 @@
 498        'if connection failed
 499        PRINT "Google Home Notifier connect fail - check your address"
 500        GOTO 530 'continue when failed
-501        'connected successfully
 501        'send message to Google Home Notifier
 502        PRINT NL$+"---- Send Message to Google Home Notifier ----"
 503        PRINT "Message: "; GM$
@@ -116,7 +115,6 @@
 520        'Terminate Google Home connection
 521        _IOTPUT(PA$+ "connect",0)
 522        FOR I=0 TO 100:NEXT
-523 'end of Google Home Notifier section
 530 'end of sending to google home notifier
 600 'loop
 610    IF RB=1 THEN 700 ELSE 620
